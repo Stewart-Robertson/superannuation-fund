@@ -2,7 +2,7 @@
 
 The Gold layer in the database contains business-ready data that can be used for ad-hoc queries, BI reporting, machine learning, etc.
 
-This layer uses a **_Star Schema_** with three _dimension_ views and one _fact_ view:
+This layer uses a **_Star Schema_** with three _dimension_ tables and one _fact_ table:
 
 |View Type|Table Name  |
 |--|--|
