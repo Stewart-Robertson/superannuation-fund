@@ -99,8 +99,8 @@ This layer uses a **_Star Schema_** with three _dimension_ tables and one _fact_
 |ANNUAL_EMPLOYER_CONTRIBUTION | NUMBER(38,4) | Total contribution from member's employer in the calendar year (A$) |
 |ANNUAL_EMPLOYEE_CONTRIBUTION | NUMBER(38,4) | Total contribution from member in the calendar year (A$) |
 |TOTAL_ANNUAL_CONTRIBUTION | NUMBER(38,4) | Total combined contribution for member in the calendar year (A$) |
-|POTENTIAL_ADDITIONAL_CONTRIBUTION | NUMBER(38,4) | Total potential additional contribution in A$ if contributions were rasied to the max level (max=0.275) |
-|CONTRIBUTION_RATE_GAP | NUMBER(7,4) | Gap between current contribution _rate_ and max potential contribution _rate_ (0.275-combined contribution) |
+|POTENTIAL_ADDITIONAL_CONTRIBUTION | NUMBER(38,4) | Total potential additional contribution in A$ if contributions were rasied to the max level (max=0.3) |
+|CONTRIBUTION_RATE_GAP | NUMBER(7,4) | Gap between current contribution _rate_ and max potential contribution _rate_ (0.3-combined contribution) |
 |INSURANCE_COVERAGE_GAP | NUMBER(38,0) | Gap between member's current insurance coverage and max potential coverage (max=A$1,000,000) (A$) |
 |INSURANCE_COVERAGE_BY_SALARY | NUMBER(38,6) | Member's insurance coverage divided by current salary |
 |SUPER_BALANCE_BY_SALARY | NUMBER(38,6) | Member's super balance divided by current salary|
