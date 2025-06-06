@@ -83,7 +83,7 @@ This layer uses a **_Star Schema_** with three _dimension_ views and one _fact_ 
 
 ## Member fund performance fact table
 
-**Purpose**: Shows key metrics, opportunities, and efficiency of the fund's Superannuation product and insurance product.
+**Purpose**: Shows key metrics, opportunities, and efficiency of the fund's Superannuation and insurance products.
   
 | Column Name |Data Type | Description|
 |--|--|--|
