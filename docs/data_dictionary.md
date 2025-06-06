@@ -11,7 +11,7 @@ This layer uses a **_Star Schema_** with three _dimension_ views and one _fact_ 
 | Dimension |gold.dim_employment |
 | Fact | gold.fact_member_contribution_performance |
 
-![Star schema data model](https://github.com/user-attachments/assets/597ccb13-427f-4179-bbe8-c0022eee114d)
+![Star schema data model](https://github.com/user-attachments/assets/1df4dd03-0506-425e-8c42-75be5844ed95)
 
 
 ## Member dimension table
