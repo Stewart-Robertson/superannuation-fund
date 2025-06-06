@@ -11,7 +11,7 @@ This layer uses a **_Star Schema_** with three _dimension_ views and one _fact_ 
 | Dimension |gold.dim_employment |
 | Fact | gold.fact_member_contribution_performance |
 
-![Star schema data model](https://github.com/user-attachments/assets/1df4dd03-0506-425e-8c42-75be5844ed95)
+![Star schema data model](https://github.com/user-attachments/assets/ca7f073d-3fa6-450e-97b3-2e2282e31acc)
 
 
 ## Member dimension table
@@ -95,13 +95,13 @@ This layer uses a **_Star Schema_** with three _dimension_ views and one _fact_ 
 |INSURANCE_COVERAGE | NUMBER(38,0) | Member's insurance coverage (A$) |
 |EMPLOYER_CONTRIBUTION_RATE | NUMBER(5,4) | Member's super contribution rate |
 |EMPLOYEE_CONTRIBUTION_RATE | NUMBER(5,4) | Member's employer's super contribution rate |
-|COMBINED_CONTRIBUTION_RATE | NUMBER(6,4) | Total contribution rate for member (max=0.275 (27.5%)) |
+|COMBINED_CONTRIBUTION_RATE | NUMBER(6,4) | Total contribution rate for member |
 |ANNUAL_EMPLOYER_CONTRIBUTION | NUMBER(38,4) | Total contribution from member's employer in the calendar year (A$) |
 |ANNUAL_EMPLOYEE_CONTRIBUTION | NUMBER(38,4) | Total contribution from member in the calendar year (A$) |
 |TOTAL_ANNUAL_CONTRIBUTION | NUMBER(38,4) | Total combined contribution for member in the calendar year (A$) |
-|POTENTIAL_ADDITIONAL_CONTRIBUTION | NUMBER(38,4) | Total additional contribution if contribution = max contribution (0.275) (A$) |
-|CONTRIBUTION_RATE_GAP | NUMBER(7,4) | Gap between current contribution and max potential contribution (0.275-combined contribution) (A$) |
-|INSURANCE_COVERAGE_GAP | NUMBER(38,0) | Gap between member's current insurance coverage and max potential coverage (A$1,000,000) (A$) |
+|POTENTIAL_ADDITIONAL_CONTRIBUTION | NUMBER(38,4) | Total potential additional contribution in A$ if contributions were rasied to the max level (max=0.275) |
+|CONTRIBUTION_RATE_GAP | NUMBER(7,4) | Gap between current contribution _rate_ and max potential contribution _rate_ (0.275-combined contribution) |
+|INSURANCE_COVERAGE_GAP | NUMBER(38,0) | Gap between member's current insurance coverage and max potential coverage (max=A$1,000,000) (A$) |
 |INSURANCE_COVERAGE_BY_SALARY | NUMBER(38,6) | Member's insurance coverage divided by current salary |
 |SUPER_BALANCE_BY_SALARY | NUMBER(38,6) | Member's super balance divided by current salary|
-|CONTRIBUTION_EFFICIENCY_RATIO | NUMBER(38,10) | Member's (salary*total contribution)/(salary*maximum contribution). Null for students/retirees/unemployed. |
+|CONTRIBUTION_EFFICIENCY_RATIO | NUMBER(38,10) | Member's (salary X total contribution)/(salary X maximum contribution). Null for students/retirees/unemployed. |
