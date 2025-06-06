@@ -4,7 +4,7 @@ The Gold layer in the database contains business-ready data that can be used for
 
 This layer uses a **_Star Schema_** with three _dimension_ tables and one _fact_ table:
 
-|View Type|Table Name  |
+|Table Type|Table Name  |
 |--|--|
 | Dimension |gold.dim_member  |
 | Dimension |gold.dim_employer |
