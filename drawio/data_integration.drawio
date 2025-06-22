@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Page-1" id="9IrlIrh0oaywa5HQTDs_">
+    <mxGraphModel dx="1018" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Is9APUzuBqhlNd1GARAn-1" value="Data Integration" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#808080;fontSize=20;rounded=0;fontColor=#ffffff;shadow=0;glass=0;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="60" y="30" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-2" value="superannuation_members" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;glass=0;shadow=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="260" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-3" value="member_id (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Is9APUzuBqhlNd1GARAn-2" vertex="1">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-17" value="Fund member data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Is9APUzuBqhlNd1GARAn-2" vertex="1">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-6" value="&lt;b&gt;member_employers&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="110" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-7" value="relationship_id (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Is9APUzuBqhlNd1GARAn-6" vertex="1">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-8" value="member_id (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Is9APUzuBqhlNd1GARAn-6" vertex="1">
+          <mxGeometry y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-9" value="employer_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Is9APUzuBqhlNd1GARAn-6" vertex="1">
+          <mxGeometry y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-18" value="Fund members&#39; current employers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Is9APUzuBqhlNd1GARAn-6" vertex="1">
+          <mxGeometry y="120" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-10" value="&lt;b&gt;employment_history&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="390" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-11" value="employment_id (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Is9APUzuBqhlNd1GARAn-10" vertex="1">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-12" value="member_id (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Is9APUzuBqhlNd1GARAn-10" vertex="1">
+          <mxGeometry y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-13" value="employer_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Is9APUzuBqhlNd1GARAn-10" vertex="1">
+          <mxGeometry y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-19" value="Fund member employment history data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="Is9APUzuBqhlNd1GARAn-10" vertex="1">
+          <mxGeometry y="120" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Is9APUzuBqhlNd1GARAn-3" target="Is9APUzuBqhlNd1GARAn-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Is9APUzuBqhlNd1GARAn-3" target="Is9APUzuBqhlNd1GARAn-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-32" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 15px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; color: rgb(14, 14, 14);&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot; class=&quot;s1&quot;&gt;&lt;b style=&quot;&quot;&gt;Note&lt;/b&gt;: employer_id&lt;/span&gt; is not a PK because multiple&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 15px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; color: rgb(14, 14, 14);&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&amp;nbsp;members can share the same employer.&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 15px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; color: rgb(14, 14, 14);&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;This table stores current relationships, not employer records&lt;/font&gt;&lt;/blockquote&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="425" y="290" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Is9APUzuBqhlNd1GARAn-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.486;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Is9APUzuBqhlNd1GARAn-9" target="Is9APUzuBqhlNd1GARAn-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
