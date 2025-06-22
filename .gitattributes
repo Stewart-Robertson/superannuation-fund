@@ -2,3 +2,6 @@
 *.sql linguist-language=sql
 *.py linguist-detectable=true
 *.py linguist-language=python
+*.ipynb linguist-detectable=true
+*.ipynb linguist-language=jupyter-notebook
+cleaning_EDA_visualisations/data_profiling_EDA/*.html linguist-generated=true
