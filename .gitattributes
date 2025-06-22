@@ -1,5 +1,7 @@
 *.sql linguist-detectable=true
 *.sql linguist-language=sql
+*.py linguist-detectable=true
+*.py linguist-language=python
 cleaning_EDA_visualisations/data_profiling_EDA/profile_employment_history.html linguist-generated=true
 cleaning_EDA_visualisations/data_profiling_EDA/profile_member_employers.html linguist-generated=true
 cleaning_EDA_visualisations/data_profiling_EDA/profile_superannuation_members.html linguist-generated=true
