@@ -1,5 +1,10 @@
-# superannuation_fund
-An end-to-end creation and analysis of a fictional Australian Superannuation fund's member data. 
+# End-to-end Data Project
+An end-to-end creation and analysis of a fictional Australian Superannuation fund's member data.
+
+1. Generating synthetic data
+2. Performing EDA and data profiling using agents
+3. Creating a triple-layer SQL Data Warehouse in Snowflake with AWS S3 storage integration
+4. Connecting to the Data Warehouse in Tableau and building a BI Dashboard
 
 ## The Data Model – Star Schema
 
