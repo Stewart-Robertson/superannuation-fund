@@ -11,7 +11,7 @@ An end-to-end creation and analysis of a fictional Australian Superannuation fun
 ![data_model_star](https://github.com/user-attachments/assets/244ba8cb-af9f-4ec9-b876-2a3a2027aca2)
 
 
-## The Tableau Data Model
+## The BI Data Model
 
 ![data_model_tableau](https://github.com/user-attachments/assets/c5bcb22e-5465-4a58-a957-c8283a32b1b3)
 
